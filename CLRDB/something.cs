@@ -11,7 +11,7 @@ public partial class StoredProcedures
     {
         SqlConnection conn = new SqlConnection();
         conn.ConnectionString = "Context Connection=true";
-
+        //lol
         SqlCommand cmd = new SqlCommand();
         cmd.Connection = conn;
         conn.Open();
